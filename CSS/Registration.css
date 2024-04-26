@@ -41,12 +41,12 @@
 
 .form-control{
     background: transparent;
-    color: aliceblue;
+   
     font-size: 17px;
-    border: none !important;
-    outline: 0px;
+    outline: none;
     width: 90%;
-    border-bottom: 1px solid aliceblue;
+    border: none;
+    border-bottom: 1px solid transparent;
     border-radius: 0px;
 
 }
@@ -54,6 +54,10 @@
 .form-control:focus{
   background-color: transparent;
   color: aliceblue;
+  outline: none;
+  border-bottom: 1px solid aliceblue;
+  border-radius: 0px;
+  box-shadow: none; 
 }
 
 .tracking-in-expand {
@@ -97,3 +101,4 @@
   letter-spacing: 2px;
   background-color: #1e0521;
 }
+
