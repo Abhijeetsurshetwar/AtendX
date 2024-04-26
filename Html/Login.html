@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>
     <link rel="stylesheet" href="/CSS/Login.css">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+</style>
 </head>
 <body>
     
@@ -12,17 +15,20 @@
         <div class="login-form">
             
             <form  class="login">
-                    <h2 >Login</h2>
-                    <label for="">UserName:</label>
-                    <input type="text" placeholder="UserName">
+                    <h2 align="center">ATENDX</h2>
                     <br><br>
-                    <label for="">Password</label>
-                    <input type="password" placeholder="Password">
+                    
+                    <label for="" autofocus >UserName :</label>
+                    <br>
+                    <input type="text" class="input" placeholder="UserName">
                     <br><br>
-                    <button >Login</button>
+                    <label for="">Password :</label>
+                    <br><input type="password" class="input" placeholder="Password">
                     <br><br>
-                    <a href="Registration.html">New User Click Here !!</a>
-            </form>
+                    <button class="btn" onclick="homepage()">Login</button>
+                    <br><br>
+                    <a href="Registration.html" class="link">New User Click Here !!</a>
+                </form>
         </div>
     </div>
     <script src="/Js/Login.js"></script>
