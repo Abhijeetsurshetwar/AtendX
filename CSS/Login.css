@@ -3,3 +3,24 @@
     margin: 0px;
     padding: 0px;
 }
+
+.login-form{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/Elements/EXp.jpg");
+    background-repeat: no-repeat;
+    position: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.login{
+    border: 5px solid red;
+    width: 30%;
+    height: 600px;
+    margin: 150px;
+    margin-top: 250px;
+}
+h2{
+    align:"center";
+}
