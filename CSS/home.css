@@ -47,6 +47,11 @@ a{
     background-color: royalblue !important;
 }
 
+.dropdown-menu:hover{
+    color: white;
+    background-color: royalblue;
+}
+
 .homepage{
     position: relative;
     top: 100px;
