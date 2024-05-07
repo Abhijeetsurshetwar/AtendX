@@ -1,25 +1,53 @@
-*{
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  html {
     margin: auto;
     padding: auto;
-
-}
-
-.main-container{
+  }
+  .main-container {
     position: fixed;
     background-color: aqua;
     width: 100%;
-    height: 8vh;
+    height: 6vh;
+    
 }
+.main {
+    overflow-y: hidden;
+    background-image: url("/Elements/bgdata.jpg");
+    position: absolute;
+    height: calc(100vh - 6vh); /* Adjusted to account for navbar height */
+    top: 6vh; /* Adjusted to align with navbar */
+    width: 100%;
+  }
+  .data-entry {
+    background-color: aqua;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+    height: 60vh;
+  }
 
-.button{
-    margin: 3vh;
-    margin-left: 45%;
-    padding: 10px;
+  .a{
+    color: orange;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+
+  .navbar-brand{
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
     font-variant: small-caps;
-    font-size: larger;
-    border: 2px solid royalblue;
-    background-color: royalblue;
-    border-radius: 15px;
-    width: 15vh;
-    pointer-events: stroke;
-}
+  }
+      
+    .nav-link{
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    
+  }
+
+  
