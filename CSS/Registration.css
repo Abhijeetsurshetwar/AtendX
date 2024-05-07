@@ -41,13 +41,13 @@
 
 .form-control{
     background: transparent;
-   
     font-size: 17px;
     outline: none;
     width: 90%;
     border: none;
     border-bottom: 1px solid transparent;
     border-radius: 0px;
+    color: aliceblue;
 
 }
 

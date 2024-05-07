@@ -20,29 +20,30 @@
     height: calc(100vh - 6vh); /* Adjusted to account for navbar height */
     top: 6vh; /* Adjusted to align with navbar */
     width: 100%;
-  }
-  .data-entry {
-    background-color: aqua;
+}
+.data-entry {
+    background-color:transparent;
+    backdrop-filter: blur(5px);
     width: 50%;
     margin-left: 25%;
     margin-top: 10%;
     height: 60vh;
-  }
+    padding: 50px;
 
-  .a{
+  }
+.a{
     color: orange;
     font-weight: bolder;
     text-decoration: none;
   }
-
-  .navbar-brand{
+.navbar-brand{
     text-decoration: none;
     font-weight: bolder;
     color: black;
     font-variant: small-caps;
   }
       
-    .nav-link{
+.nav-link{
     font-weight: bolder;
     text-decoration: none;
     color: black;
@@ -50,4 +51,41 @@
     
   }
 
-  
+label{
+  color: aliceblue;
+}
+
+.btn{
+  border: 1px solid green !important;
+  background-color: transparent !important;
+  margin: 50px;
+  margin-left: 40%;
+  transition:  3s ;
+  }
+
+.btn:hover{
+    border: 2px solid green !important;
+    font-variant: small-caps  ;
+}
+
+
+.form-control {
+  color: aliceblue !important;
+  background-color: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid white !important;
+  border-radius: 0px !important;
+  outline: none !important  ; /* Remove outline */
+}
+
+.form-control:focus {
+    background-color: transparent;
+    color: aliceblue;
+    border-bottom: 1px solid aliceblue;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+option{
+  color: black;
+}

@@ -11,7 +11,7 @@
 <body>
   <div class="main-container">
     <nav class="navbar navbar-expand-lg ">
-        <a class="navbar-brand" href="/Html/dataentry.html"><span class="a">A</span>tendX</a>
+        <a class="navbar-brand" href="/Html/home.html"><span class="a">A</span>tendX</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -38,8 +38,51 @@
     <div class="main">
     <section>
             <div class="data-entry">
-                this is data eentry page
-            </div>
+              <form>
+                <div class="form-row">
+                  <div class="col-md-6 mb-3">
+                    <label for="validationDefault01">Student Name</label>
+                    <input type="text" class="form-control" id="validationDefault01" placeholder="Student Name" required>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="validationDefault02">Date</label>
+                    <input type="date" class="form-control" id="validationDefault02" placeholder="Data" value="Otto" required>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="validationDefault02">Time In</label>
+                    <input type="time" class="form-control" id="validationDefault02" placeholder="Time In" value="Otto" required>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="validationDefault02">Time Out</label>
+                    <input type="time" class="form-control" id="validationDefault02" placeholder="Time Out" value="Otto" required>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col-md-6 mb-3">
+                    <label for="validationDefault03">Course </label>
+                    <input type="text" class="form-control" id="validationDefault03"placeholder="Course"  required>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="validationDefault05">Subject</label>
+                    <input type="text" class="form-control" id="validationDefault05"placeholder="Subject"  required>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="validationDefault07">Attendance Status</label>
+                    <select class="form-control" id="validationDefault07"  placeholder="Status"  required>
+                      <option value="">Select...</option>
+                      <option>Present</option>
+                      <option>Absent</option>
+                      <option>Late</option>
+                    </select>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="validationDefault08">Reason (if absent or late)</label>
+                    <input type="text" class="form-control"placeholder="Reason"  id="validationDefault08">
+                  </div>
+                </div>
+                <button class="btn btn-primary" type="submit">Submit form</button>
+                </div>
+
         </section>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
