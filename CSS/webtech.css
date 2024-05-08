@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    background-color: yellowgreen;
+    backdrop-filter: blur(5px);
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+
+}
+
+.nav-link{
+    margin-right: 50px;
+}
+
+.main-page{
+    position: absolute;
+    padding-top: 50px;
+}
