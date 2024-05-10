@@ -79,3 +79,24 @@ a:hover{
     border: 2px solid white;
     opacity: 0.8;
 }
+
+.card{
+    text-decoration: none;
+    outline: none;
+    font-weight: bold;
+}
+
+.card-b{
+    color: black ;
+    text-decoration: none;
+    outline: none;
+    font-weight: bolder;
+
+}
+
+.card-b:hover{
+    color: black;
+}
+.card-body{
+    margin-left: 20px;
+}
